@@ -5,7 +5,7 @@ import Navigate from "../components/Navigate";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <header>
         <Logo />
         <Title />
