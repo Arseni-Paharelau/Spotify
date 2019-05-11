@@ -6,4 +6,7 @@ function Title() {
     );
 }
 
+Title.propTypes = {};
+Title.defaultProps = {};
+
 export default Title

@@ -16,4 +16,7 @@ function App() {
   );
 }
 
+App.propTypes = {};
+App.defaultProps = {};
+
 export default App;

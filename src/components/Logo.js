@@ -6,4 +6,7 @@ function Logo() {
     );
 }
 
+Logo.propTypes = {};
+Logo.defaultProps = {};
+
 export default Logo;

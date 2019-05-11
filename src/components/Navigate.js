@@ -6,4 +6,7 @@ function Navigate() {
     );
 }
 
+Navigate.propTypes = {};
+Navigate.defaultProps = {};
+
 export default Navigate;
