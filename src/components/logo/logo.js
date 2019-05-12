@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.png';
+import './logo.scss';
 
 function Logo() {
     return (
-        <div>
+        <h1 className="logo">
             <img src={logo} alt="Spotify Search"></img>
-            <div>Spotify Search</div>
-        </div>
+            Spotify Search
+        </h1>
     );
 }
 

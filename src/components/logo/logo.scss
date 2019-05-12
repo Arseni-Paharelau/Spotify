@@ -1,0 +1,23 @@
+@import "variables.scss";
+
+$logo-font-size: 30px;
+$logo-size: 50px;
+
+.logo {
+
+    background-color: $bg-deep-dark-clr;
+    color: $green-clr;
+    padding: $padding;
+    text-align: center;
+    
+    @at-root #{selector-unify(&, h1)} {
+        font-size: $logo-font-size;
+        font-weight: $font-weight;
+    }
+
+    img {
+        height: $logo-size;
+        width: $logo-size;
+    }
+
+}
