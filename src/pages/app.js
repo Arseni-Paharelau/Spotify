@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from "../components/Logo";
-import Title from "../components/Title";
-import Navigate from "../components/Navigate";
+import Logo from "../components/logo";
+import Title from "../components/title";
+import Navigate from "../components/navigate";
 
 function App() {
   return (
